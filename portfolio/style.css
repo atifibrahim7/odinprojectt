@@ -1,0 +1,42 @@
+.toptitle{
+    /* height: 500px; */
+    width: auto;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0066ff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+
+
+  
+
+    
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    
+    /* background-image: url('picture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+section
+{   display: flex;
+    flex-direction: row;
+   
+}
+article
+{
+   
+    background-color: antiquewhite;
+    border: 2px solid black;
+    padding: 23px 23px 23px 23px;
+    margin: 23px;
+
+}
