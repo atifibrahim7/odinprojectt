@@ -1,0 +1,53 @@
+/* access the id to apply css to it */
+/* give mainBox black background */
+#mainBox {
+    /* allign block in centre */
+    margin: auto;
+    /* make in inline */
+    display: inline-block;
+    background-color: black;
+    /* give the text inside white colour */
+    color: white;
+    /* allign it in centre */
+    text-align: center;
+    /* give padding to the text */
+    padding: 20px;
+    /* give margin to the text */
+    margin: 20px;
+    /* give border to the text */
+    
+    /* give border radius to the text */
+    border-radius: 10px;
+    /* increase the text to 200% of its size if pointer is over the text */
+    transition: 1s;
+    
+}
+
+/* if pointer is over the text then increase the size of the text to 200% */
+#mainBox:hover {
+    transform: scale(2);
+}
+.whiteBg 
+{
+    display: inline-block;
+    background-color: rgb(44, 40, 40);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+   transition: 1s; 
+}
+.whiteBg:hover {
+    transform: scale(1.5);
+}
+nav
+{
+    background-color: rgb(44, 40, 40);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
